@@ -57,7 +57,7 @@ async function searchResults({
             </div>
 
             <div>
-              {results.map((item) => {
+              {results?.map((item) => {
                 return (
                   <ListingCart
                   key={item.title}
